@@ -143,3 +143,5 @@
 /* Consultation uses the centered login-card composition within the product shell. */
 .legacy-consultation{width:100%;min-width:0}.legacy-consultation .auth-layout{display:grid;place-items:center;padding:72px 20px;min-height:calc(100vh - 92px)}.legacy-consultation .auth-card{width:min(520px,100%);min-width:0;margin:0;border:1px solid var(--line);border-radius:24px;padding:42px;box-shadow:0 24px 70px rgba(6,44,34,.08)}.legacy-consultation h1{margin:12px 0 20px;font:500 34px/1.45 Georgia,"Noto Serif SC",serif;overflow-wrap:anywhere}.legacy-consultation .auth-card>p{color:var(--muted);line-height:1.7}.legacy-consultation .button{display:inline-flex;justify-content:center;max-width:100%;margin-top:16px;text-decoration:none}
 @media(max-width:760px){.legacy-consultation .auth-layout{padding:40px 20px}.legacy-consultation .auth-card{padding:28px}.legacy-consultation h1{font-size:28px}.legacy-consultation .button{width:100%}}
+
+.legal-consent{display:flex;align-items:flex-start;gap:10px;margin:18px 0;font-size:14px;line-height:1.8}.legal-consent input[type=checkbox]{width:auto;flex:none;margin-top:6px}.legal-consent a{text-decoration:underline}

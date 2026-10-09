@@ -25,3 +25,5 @@
 .center-inbox-button .inbox-unread-count{position:absolute;top:-6px;right:-7px;display:flex;align-items:center;justify-content:center;min-width:21px;height:21px;padding:0 4px;border-radius:50%;background:#c92a32;color:white;font-size:11px;font-weight:700;line-height:1}
 
 .service-purchase select{display:block;width:100%;max-width:240px;margin:8px 0 20px;padding:10px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink);font:inherit}.service-purchase [data-purchase-back]{margin-left:18px}.plan-summary .actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:18px}
+
+.legal-consent{display:flex;align-items:flex-start;gap:10px;margin:18px 0;font-size:14px;line-height:1.8}.legal-consent input[type=checkbox]{width:auto;flex:none;margin-top:6px}.legal-consent a{text-decoration:underline}
